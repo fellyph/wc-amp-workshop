@@ -14,8 +14,8 @@ Agenda:
 * AMP Components
 * Modes
 6. exercises
-  6.1 Validator
-  6.2 Default core block(lightbox, gallery, embeded content)
-  6.3 Accordion
-  6.4 Share(Jetpack)
-  6.5 Tabs
+* Validator
+* Default core block(lightbox, gallery, embeded content)
+* Accordion
+* Share(Jetpack)
+* Tabs

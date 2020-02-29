@@ -80,14 +80,14 @@ registerBlockType( 'create-block/amp-share', {
 	 * @return {WPElement} Element to render.
 	 */
 	save() {
-		/* return (
+		return (
 			<p>
 				<amp-social-share type="twitter"></amp-social-share>
 				<amp-social-share type="linkedin"></amp-social-share>
 				<amp-social-share type="email"></amp-social-share>
 			</p>
-		); */
+		);
 
-		return null;
+		// return null;
 	},
 } );

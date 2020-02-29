@@ -1,10 +1,11 @@
 <?php
 
 function render_character() {
-
+	// verifing if the plugin is enabled
 	if ( function_exists( "amp_is_canonical" ) && amp_is_canonical() ) {
 		return sprintf('<p><amp-social-share type="twitter"></amp-social-share></p>');
 	} else {
+		// displaying the fallback
 		global $wp;
 		$text = wp_title( '|', false );
 		$current_url = home_url( add_query_arg( array(), $wp->request ) );
@@ -16,6 +17,7 @@ function render_character() {
 
 }
 
+// registering as a dynamic block
 register_block_type( 'create-block/amp-share', array(
     'render_callback' => 'render_character',
 ) );

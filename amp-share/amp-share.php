@@ -59,4 +59,5 @@ function create_block_amp_share_block_init() {
 
 add_action( 'init', 'create_block_amp_share_block_init' );
 
-require_once plugin_dir_path( __FILE__ ) . 'dynamic_amp_share_block.php';
+// adding dynamic block
+//require_once plugin_dir_path( __FILE__ ) . 'dynamic_amp_share_block.php';

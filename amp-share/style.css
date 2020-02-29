@@ -1,0 +1,16 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-create-block-amp-share {
+	text-align: center;
+}
+
+.wp-block-create-block-amp-share .amp-social-share-email
+.wp-block-create-block-amp-share .amp-social-share-twitter {
+	background: #005af0;
+	color: #fff;
+}

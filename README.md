@@ -1,7 +1,7 @@
 # wc-amp-workshop
 
 
-##WordPress AMP WorkShop
+## WordPress AMP WorkShop
 
 Agenda:
 
